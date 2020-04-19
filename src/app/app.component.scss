@@ -1,0 +1,16 @@
+$mobile-only: "only screen and (max-width : 768px)";
+
+@font-face {
+	font-family: "Oswald-Regular";
+	src: url("../fonts/Oswald-Regular.ttf") format("truetype")
+}
+
+body {
+  margin-bottom: 0;
+
+  @media #{$mobile-only} {
+    margin: 0;
+  }
+
+  font-family: 'Oswald-Regular';
+}
